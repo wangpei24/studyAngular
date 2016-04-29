@@ -1,0 +1,12 @@
+{
+  "name": "studyAngular",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A private project for AngularJS Study",
+  "repository": "https://github.com/wangpei24/studyAngular",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
