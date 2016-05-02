@@ -6,6 +6,8 @@
   "repository": "https://github.com/wangpei24/studyAngular",
   "license": "MIT",
   "devDependencies": {
+      "jasmine-core": "^2.3.4",
+      "protractor": "^2.1.0"
   },
   "scripts": {
   }
