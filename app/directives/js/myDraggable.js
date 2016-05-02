@@ -36,8 +36,8 @@ app.directive('myDraggable', ['$document', function($document) {
 			// 这样可以保证，无论鼠标起始是在色块的哪个位置，移动后鼠标和色块的相对位置仍不变
 			// 如果修改为top: event.pageY,left: event.pageX时，每次当mousemove时，色块和鼠标相对位置都会重新定位为0,0
 			element.css({
-				top: event.pageY + 'px',
-				left: event.pageX + 'px'
+				top: y + 'px',
+				left: x + 'px'
 			});
 		}
 
